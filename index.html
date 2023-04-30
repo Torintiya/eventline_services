@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>EventLine</title>
+	<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="../Услуги/js/read.js"></script>
+	<script src="../Услуги/js/showMore.js"></script>
+	<script defer src="./js/script.js"></script>
+	<script defer src="./js/OpenClose.js"></script>
+	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="./css/media-adapt.css" />
+</head>
+<!----------------------------------------------------------КулибинSTART--------------------------------------------->
+
+<body>
+	<header class="header">
+		<div class="header_wrap">
+			<div class="header_body">
+				<a href="#video_Wrapper" class="header_logo">
+					<img src="img/Logotype.png" alt="" />
+				</a>
+				<div class="header_burger">
+					<span></span>
+				</div>
+				<nav class="header_menu">
+					<ul class="header_list">
+						<li>
+							<a href="#video_Wrapper" class="header_link">Главная</a>
+						</li>
+						<li>
+							<a href="#about_us" class="header_link">О нас</a>
+						</li>
+						<li>
+							<a href="#portfolio" class="header_link">Портфолио</a>
+						</li>
+						<li>
+							<a href="#service_wrapper" class="header_link">Услуги</a>
+						</li>
+						<li>
+							<a href="#footer" class="header_link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<!-- Vika start -->
+	<main>
+		<button id="openButton" class="messenger_btn"></button>
+
+		<div class="header_wrap contacts">
+			<div>
+				<a class="contacts_link" href="#"> &#129120; Вернуться на Главную </a>
+			</div>
+			<h2 class="contacts_title">Наши услуги</h2>
+		</div>
+
+		<div class="header_wrap services">
+			<!-- <div class="btn_wrap">
+				<div class="services_btn">
+					<button class="btn_line">
+						<img src="../Услуги/img/icon1.svg" alt="В строчку" />
+					</button>
+					<button class="btn_column">
+						<img src="../Услуги/img/icon2.svg" alt="В столбик" />
+					</button>
+				</div>
+			</div> -->
+
+			<div class="services_card">
+				<div class="card_top card">
+					<div class="card_img_box">
+						<img class="card_img" src="../Услуги/img/card1.png" alt="Конфетти" />
+					</div>
+					<div class="card_content">
+						<h3 class="card_title">Конфетти</h3>
+						<div>
+							<p class="card_info">
+								Это один из самых популярных спецэффектов на первый танец.
+								Вы можете выбрать конфетти на любой вкус и цвет.
+							</p>
+						</div>
+						<div class="card_footer">
+							<p class="card_price">от 7000 р</p>
+							<button class="card_btn">
+								Заказать звонок
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card_img_box">
+						<img class="card_img" src="../Услуги/img/card2.png" alt="Звуковое оборудование" />
+					</div>
+					<div class="card_content">
+						<h3 class="card_title">Звуковое оборудование</h3>
+						<div class="text_hide_wrap">
+							<div class="item_text">
+								<p class="card_info">
+									Предоставляем в аренду только профессиональное звуковое
+									оборудование! В наличии акустические системы, пульты,
+									микрофоны, аппаратура для выступлений артистов. Наши
+									звукоинженеры обеспечат качественное звучание на Вашем
+									празднике.
+								</p>
+							</div>
+							<!-- <div class="services_button_wrap btn_hidden_sound">
+								<a class="services_button">Показать ещё</a>
+							</div> -->
+						</div>
+						<div class="card_footer">
+							<p class="card_price">от 10000 р</p>
+							<button class="card_btn">
+								Заказать звонок
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card_img_box">
+						<img class="card_img" src="../Услуги/img/card3.png" alt="Цветной дым" />
+					</div>
+					<div class="card_content">
+						<h3 class="card_title">Цветной дым</h3>
+						<div class="text_hide_wrap">
+							<div class="item_text">
+								<p class="card_info">
+									Модная фишка свадебных фотосессий - цветной дым! Он
+									безопасен - дымовые шашки можно просто держать в руках за
+									специальные ручки, а сам дым не пачкает одежду. Цветной дым
+									на свадьбе обязательно зарядит гостей положительными
+									эмоциями, а фотографии получатся сочными и яркими.
+								</p>
+							</div>
+							<!-- <div class="services_button_wrap btn_hidden_smoke">
+								<a class="services_button">Показать ещё</a>
+							</div> -->
+						</div>
+						<div class="card_footer">
+							<p class="card_price">от 3000 р</p>
+							<button class="card_btn">
+								Заказать звонок
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card_img_box">
+						<img class="card_img" src="../Услуги/img/card4.png" alt="Тяжелый дым" />
+					</div>
+					<div class="card_content">
+						<h3 class="card_title">Тяжелый дым</h3>
+						<div class="text_hide_wrap">
+							<div class="item_text">
+								<p class="card_info">
+									Оригинальное дополнение к вашему празднику! С помощью
+									роскошного, пушистого дыма, мы можем создать как сплошной
+									низкий туман, так и иллюзию снега или воздушного облака.
+									Тяжелый дым не поднимается в верх, стелится плотной пеленой
+									и не оставляет следов. Пусть ваш первый танец станет
+									сказочным!
+								</p>
+							</div>
+							<!-- <div class="services_button_wrap">
+								<a class="services_button">Показать ещё</a>
+							</div> -->
+						</div>
+						<div class="card_footer">
+							<p class="card_price">от 8000 р</p>
+							<button class="card_btn">
+								Заказать звонок
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card_img_box">
+						<img class="card_img" src="../Услуги/img/card5.png" alt="Пиротехническое шоу" />
+					</div>
+					<div class="card_content">
+						<h3 class="card_title">Пиротехническое шоу</h3>
+						<div class="text_hide_wrap">
+							<div class="item_text">
+								<p class="card_info">
+									Ситуация: молодые танцуют первый танец под прекрасную
+									музыку, и вот, в кульминационный момент вокруг них
+									вспыхивает огонь. Это ли не «вау»? Пиротехника потрясающая и
+									абсолютно безопасная.
+								</p>
+							</div>
+							<!-- <div class="services_button_wrap btn_hidden_show">
+								<a class="services_button">Показать ещё</a>
+							</div> -->
+						</div>
+						<div class="card_footer">
+							<p class="card_price">от 13000 р</p>
+							<button class="card_btn">
+								Заказать звонок
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card_img_box">
+						<img class="card_img" src="../Услуги/img/card6.png" alt="Световое оформление" />
+					</div>
+					<div class="card_content">
+						<h3 class="card_title">Световое оформление</h3>
+						<div class="text_hide_wrap">
+							<div class="item_text">
+								<p class="card_info">
+									Свет участвует и в создании торжественной атмосферы, и в
+									декорировании банкетного зала, и в фото-видео, и в
+									акцентировании внимания на главных объектах. Достоинства так
+									очевидны!
+								</p>
+							</div>
+							<!-- <div class="services_button_wrap btn_hidden_light">
+								<a class="services_button">Показать ещё</a>
+							</div> -->
+						</div>
+						<div class="card_footer">
+							<p class="card_price">от 10000 р</p>
+							<button class="card_btn">
+								Заказать звонок
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card_img_box">
+						<img class="card_img" src="../Услуги/img/card7.png" alt="Искусственный снег" />
+					</div>
+					<div class="card_content">
+						<h3 class="card_title">Искусственный снег</h3>
+						<div class="text_hide_wrap">
+							<div class="item_text">
+								<p class="card_info">
+									Создаётся эффект лёгкого падающего снега. Очень красиво и
+									романтично смотрится во время первого танца. И да, актуально
+									в любое время года.
+								</p>
+							</div>
+							<!-- <div class="services_button_wrap btn_hidden_snow">
+								<a class="services_button">Показать ещё</a>
+							</div> -->
+						</div>
+						<div class="card_footer">
+							<p class="card_price">от 10000 р</p>
+							<button class="card_btn">
+								Заказать звонок
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="card_bottom card">
+					<div class="card_img_box">
+						<img class="card_img" src="../Услуги/img/card8.png" alt="Светодиодный экран" />
+					</div>
+					<div class="card_content">
+						<h3 class="card_title">Светодиодный экран</h3>
+						<div class="text_hide_wrap">
+							<div class="item_text">
+								<p class="card_info">
+									Свадебная сцена со светодиодным экраном - это простой,
+									современный, креативный дизайн для оформления фона на ваше
+									торжество! Можно показывать фото-видео контент, который
+									будет виден любому гостю, даже если он сидит очень далеко за
+									счет четкой HD картинки с повышенной контрастностью и
+									яркостью.
+								</p>
+							</div>
+							<!-- <div class="services_button_wrap">
+								<a class="services_button">Показать ещё</a>
+							</div> -->
+						</div>
+						<div class="card_footer">
+							<p class="card_price">от 10000 р</p>
+							<button class="card_btn">
+								Заказать звонок
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="header_wrap show_btn">
+			<button class="show_more">Показать ещё</button>
+		</div>
+		<!-- Vika end -->
+
+		<!--------------------------------------------------IlyaSTART------------------------------------------------------>
+		<section id="fomPage" class="formP">
+			<div class="formBack">
+				<div class="window-form">
+					<button id="closeButton" class="close-button"></button>
+					<div id="formBox" class="form-box">
+						<div class="formTitle">
+							<h1>У вас остались вопросы?</h1>
+							<h2>
+								Заполните форму ниже и мы свяжемся с вами в ближайшее время
+							</h2>
+						</div>
+						<form id="QAforma" name="QAforma" class="QA-forma" action="" method="POST">
+							<fieldset>
+								<legend>Имя</legend>
+								<input id="nameForm" type="text" placeholder="Анна" required name="user_name" />
+							</fieldset>
+
+							<fieldset>
+								<legend>Email</legend>
+								<input id="emailForma" type="email" placeholder="example@gmail.com" required
+									name="user_email" />
+							</fieldset>
+
+							<fieldset>
+								<legend>Мобильный телефон</legend>
+								<input id="telForma" type="tel" minlength="7" placeholder="+7(999)123-45-67" required
+									name="user_phone" />
+							</fieldset>
+							<div class="polConfDiv">
+								<label id="checkLabelText" for="checkboxForma">
+									<input id="checkboxForma" type="checkbox" required />
+									Я согласен (а) на обработку персональных данных в
+									соответствии
+								</label>
+								<p>
+									<a id="polConf" href="./politika.html">Политикой конфиденциальности</a>
+								</p>
+							</div>
+							<input type="submit" id="acceptBtnForm" value="Отправить заявку" />
+						</form>
+					</div>
+					<div id="completeBox" class="complete-form-box">
+						<div class="formTitle">
+							<h1>Спасибо! ваша заявка принята</h1>
+							<h2>Мы свяжемся с вами в ближайшее время</h2>
+						</div>
+						<div id="closeBtnFormDiv">
+							<button id="closeBtnForm" type="submit">OK</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!----------------------------------------------- IlyaEND ------------------------------------------------------>
+	</main>
+
+	<!---------------------------------------------GALINASTART-------------------------------------------------------->
+	<footer class="footer" id="footer">
+		<div class="container_footer">
+			<div class="footer_blocks">
+				<div class="footer__block">
+					<ul id="" class="list">
+						<li><img class="logo" src="./img/Logotype.png" alt="logo" /></li>
+					</ul>
+				</div>
+				<div>
+					<ul class="list">
+						<li class="footer__block" id="maps_modal">
+							<img class="footer___img" src="./img/geo.svg" alt="geolocation" />
+							<a class="footer___text" href="#">г. Таганрог, ул. Заводская, 20-3</a>
+						</li>
+						<li class="footer__block">
+							<img class="footer___img" src="./img/mail.svg" alt="email" />
+							<a class="footer___text" href="mailto:sff08@yandex.com">sff08@yandex.com</a>
+						</li>
+						<li class="footer__block">
+							<img class="footer___img" src="./img/phone.svg" alt="phone" />
+							<a class="footer___text" href="tel:+79185369230">8-918-536-92-30</a>
+						</li>
+						<li class="footer__block">
+							<div class="logo_links">
+								<a href="https://t.me/+fzvFY16tQCw1OGQy" target="_blank"><img
+										class="footer___img_sn vk_img" src="./img/telegram_static.svg"
+										onmouseover="this.src='./img/telegram_hover.svg'"
+										onmouseout="this.src='./img/telegram_static.svg'" alt="telegram" /></a>
+								<a href="https://vk.com/el_eventline" target="_blank"><img
+										class="footer___img_sn telegram_img" src="./img/vk_static.svg"
+										onmouseover="this.src='./img/vk_hover.svg'"
+										onmouseout="this.src='./img/vk_static.svg'" alt="vkontakte" />
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<ul class="list">
+				<li>
+					<a class="footer___text policy" href="./polConf.html">Политика конфиденциальности</a>
+				</li>
+				<li>
+					<a class="footer___text policy next" href="#">© 2023 ИП Федосов Максим Сергеевич</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<!---------------------------------------------GALINAEND------------------------------------------------------->
+</body>
+
+</html>
